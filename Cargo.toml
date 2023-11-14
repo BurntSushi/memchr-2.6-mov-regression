@@ -1,0 +1,13 @@
+[package]
+publish = false
+name = "i139"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+memchr = "2.6.4"
+
+[[bin]]
+name = "i139"
+path = "main.rs"
